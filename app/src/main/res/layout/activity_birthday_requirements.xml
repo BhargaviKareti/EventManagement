@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BirthdayRequirements">
+    <TextView
+        android:id="@+id/id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIRTHDAY REQUIREMENTS"/>
+    <CheckBox
+        android:id="@+id/chair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chairs and tables-2000/-" />
+
+    <CheckBox
+        android:id="@+id/balloon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Balloons-100/-"/>
+    <CheckBox
+        android:id="@+id/chocolates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chocolates-1000/-"/>
+    <CheckBox
+        android:id="@+id/entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DJ bOX-5000/- "/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/okk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00BCD4"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/skipp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFEB3B"
+            android:text="Skip" />
+
+        <Button
+            android:id="@+id/id_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="Next" />
+
+        <Button
+            android:id="@+id/id_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF5722"
+            android:text="Back" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
